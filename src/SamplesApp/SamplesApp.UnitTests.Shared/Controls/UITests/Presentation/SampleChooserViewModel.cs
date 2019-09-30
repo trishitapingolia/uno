@@ -544,7 +544,7 @@ namespace SampleControl.Presentation
 			{
 				var sampleControl = new SampleChooserContent()
 				{
-					ControlName = control.attribute.ControlName,
+					ControlName = control.attribute.ControlName ?? control.type.Name,
 					ViewModelType = control.attribute.ViewModelType,
 					Description = control.attribute.Description,
 					ControlType = control.type.AsType(),

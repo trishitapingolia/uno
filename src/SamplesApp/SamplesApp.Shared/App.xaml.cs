@@ -185,7 +185,9 @@ namespace SamplesApp
 					}
 				)
 #if DEBUG
+				//.AddConsole(LogLevel.Trace);
 				.AddConsole(LogLevel.Debug);
+
 #else
 				.AddConsole(LogLevel.Warning);
 #endif

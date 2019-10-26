@@ -1,4 +1,4 @@
-# Release notes
+﻿# Release notes
 
 ## Next version
 
@@ -158,6 +158,7 @@
 * Fix color refresh of `BitmapIcon` monochrome Foreground
 * [IOS] DatePickerFlyout min and max year were resetting to FallbackNullValue
 * [Android] Fix bug in `ListView` when using an `ObservableCollection` as its source and using `Header` and `Footer`.
+* [iOS] #977 Fix exception when setting MediaPlayerElement.Stretch in XAML.
 
 ## Release 1.45.0
 ### Features
